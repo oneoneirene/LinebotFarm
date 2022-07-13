@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -13,8 +14,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
-    "linebot": "^1.6.1",
-    "ngrok": "^4.3.1"
+    "linebot": "^1.6.1"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
@@ -22,6 +22,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-promise": "^6.0.0",
+    "ngrok": "^4.3.1",
     "nodemon": "^2.0.19"
   }
 }
