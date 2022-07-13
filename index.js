@@ -10,7 +10,7 @@ const bot = linebot({
 
 bot.on('message', event => {
   if (event.message.type === 'text') {
-    if (event.message.text.startsWith('查詢')) {
+    if (event.message.text.startsWith('查詢 ')) {
       fetchRestaurant(event)
     }
   }
